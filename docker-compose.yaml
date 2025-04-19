@@ -25,4 +25,4 @@ services:
       MONGO_URI: mongodb://dev:pass@mongo:27017        
 
 volumes:
-  mongo_data:
+  mongo_data: {}
