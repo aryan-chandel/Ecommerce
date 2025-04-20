@@ -7,8 +7,8 @@ import (
 )
 
 func RegisterRoutes(e *echo.Echo) {
-	e.POST("/users/signup", controllers.SignUp())
-	e.POST("/users/login", controllers.Login())
-	e.GET("/users/productview", controllers.SearchProduct())
-	e.GET("/users/search", controllers.SearchProductByQuery())
+	e.POST("/signup", controllers.SignUp())
+	e.POST("/login", controllers.Login())
+	e.GET("/productview", controllers.SearchProduct())
+	e.GET("/search", controllers.SearchProductByQuery())
 }
